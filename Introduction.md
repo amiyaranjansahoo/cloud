@@ -89,3 +89,63 @@ In the above example, we are illustrating IT resources required to run the web a
 -	
 -	Examples : EC2 VM’s,   Azure VM’s
 ```
+## Cloud Deployment Models:
+### Public Cloud : 
+```sh
+-	The public cloud makes it possible for anybody to access systems and services. The public cloud may be less secure as it is open to everyone. 
+-	The public cloud is one in which cloud infrastructure services are provided over the internet to the general people or major industry groups. 
+-	The infrastructure in this cloud model is owned by the entity that delivers the cloud services, not by the consumer.
+-	
+-	Public Cloud
+-	In the public cloud, customers share the data center and other resources.
+-	Nothing is dedicated to a specific customer
+-	The public cloud is cheaper than the private cloud.
+
+Advantages of the Public Cloud Model
+
+●	Minimal Investment: Because it is a pay-per-use service, there is no substantial upfront fee, making it excellent for enterprises that require immediate access to resources.
+●	No setup cost: The entire infrastructure is fully subsidized by the cloud service providers, thus there is no need to set up any hardware.
+●	Infrastructure Management is not required: Using the public cloud does not necessitate infrastructure management.
+●	No maintenance: The maintenance work is done by the service provider (not users).
+●	Dynamic Scalability: To fulfill your company’s needs, on-demand resources are accessible. 
+Disadvantages of the Public Cloud Model
+●	Less secure: Public cloud is less secure as resources are public so there is no guarantee of high-level security.
+●	Low customization: It is accessed by many public so it can’t be customized according to personal requirements.
+```
+### Private Cloud 
+```sh
+The private cloud deployment model is the exact opposite of the public cloud deployment model. It’s a one-on-one environment for a single user (customer). There is no need to share your hardware with anyone else. The distinction between private and public clouds is in how you handle all of the hardware. It is also called the “internal cloud” & it refers to the ability to access systems and services within a given border or organization.
+Private Cloud
+○	The cloud resources are entirely dedicated to a specific customer & Org.
+○	It is costlier than the public cloud
+○	Customers rarely use the private cloud
+
+Advantages of the Private Cloud Model
+
+●	Better Control: You are the sole owner of the property. You gain complete command over service integration, IT operations, policies, and user behavior. 
+●	Data Security and Privacy: It’s suitable for storing corporate information to which only authorized staff have access. By segmenting resources within the same infrastructure, improved access and security can be achieved.
+●	Supports Legacy Systems: This approach is designed to work with legacy systems that are unable to access the public cloud. 
+●	Customization: Unlike a public cloud deployment, a private cloud allows a company to tailor its solution to meet its specific needs.
+Disadvantages of the Private Cloud Model
+
+●	Less scalable: Private clouds are scaled within a certain range as there is less number of clients.
+●	Costly: Private clouds are more costly as they provide personalized facilities.
+Hybrid Cloud:
+-	By bridging the public and private worlds with a layer of proprietary software, hybrid cloud computing gives the best of both worlds. With a hybrid solution, you may host the app in a safe environment while taking advantage of the public cloud’s cost savings. 
+-	Organizations can move data and applications between different clouds using a combination of two or more cloud deployment methods, depending on their needs. 
+-
+```
+## -	Hybrid Cloud
+```sh
+-	It is a mix of public and private & on-premise data centers
+
+Advantages of the Hybrid Cloud Model
+
+●	Flexibility and control: Businesses with more flexibility can design personalized solutions that meet their particular needs.
+●	Cost: Because public clouds provide scalability, you’ll only be responsible for paying for the extra capacity if you require it.
+●	Security: Because data is properly separated, the chances of data theft by attackers are considerably reduced. 
+Disadvantages of the Hybrid Cloud Model
+
+●	Difficult to manage: Hybrid clouds are difficult to manage as it is a combination of both public and private cloud. So, it is complex.
+●	Slow data transmission: Data transmission in the hybrid cloud takes place through the public cloud so latency occurs.
+```
