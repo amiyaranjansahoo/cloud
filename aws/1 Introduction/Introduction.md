@@ -1,6 +1,7 @@
 ## Regions: 
 ```sh
-1.	It represent geographical locations. For example Sydney, Singapore, Ireland and Mumbai). As of now there are 25 regions.
+1.	It represent geographical locations. For example Sydney, Singapore, Ireland and Mumbai). As of now there
+are 30+ regions.
 ```
 ## Availability zone (AZ):  
 ```sh
