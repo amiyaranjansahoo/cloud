@@ -14,11 +14,10 @@ Billing:
 Fixed price (Hourly )
 
 Pay per what you have used.
-
-Pay per Hour
-No commitment 
-No Upfront Payment 
-No Predictable Usage.
+- Pay per Hour
+- No commitment 
+- No Upfront Payment 
+- No Predictable Usage.
 ```
 #### Reserved Instance
 ```sh
