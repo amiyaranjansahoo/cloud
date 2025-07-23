@@ -1,4 +1,4 @@
-## EC2 Instance Types & Families
+## EC2 Instance Types & Families: https://aws.amazon.com/ec2/instance-types/
 Amazon offers wide range of instance types and choosing them correctly helps in optimizing application performance
 #### 1.	General Purpose instances:
 ```sh 
