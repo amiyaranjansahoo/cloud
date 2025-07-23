@@ -1,4 +1,4 @@
-EC2 Instance Purchase Options (Important for cost optimization)
+EC2 Instance Purchase Options (Important for cost optimization): https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/instance-purchasing-options.html
 #### On-Demand Instances
 ```sh
 These instances are flexible to use, that is you get it when you want it and terminate it when you don't want it.
