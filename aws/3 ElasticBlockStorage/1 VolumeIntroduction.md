@@ -16,4 +16,8 @@ Availability Zone. Depending on the volume and instance types, you can use Multi
 ●	EBS volume can be detached from a instance and attached to a different instance
 ●	EBS volumes can be encrypted (FAQ)
 ●	EBS volumes can be resized (only increase)
+●	Persistent storage, they are referring to a hard disk, data stored on disk is permanent even if the system reboots.
+● EBS is a Network attached virtual drive.
+● This is not a direct storage. The EBS will be stored somewhere in AZ and will be connected through network not
+inside the same host where EC2 reside.
 ```
