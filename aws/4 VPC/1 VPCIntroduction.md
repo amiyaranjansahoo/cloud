@@ -18,7 +18,8 @@
 •	This is customized VPC and we will create as per the requirement.
 •	We can’t launch an EC2 instance just with VPC.
 •	We need to have one or more subnetwork called as subnet in order to launch the EC2.
-•	Once we created VPC DHCP(Dynamic Host Control protocol),NACL and security group,route table will get created automatically.
+•	Once we created VPC DHCP(Dynamic Host Control protocol),NACL and security group,route table will get created
+automatically.
 •	Once the VPC is created, you can’t change its CIDR block
 •	If you need a different CIDR size, create a new VPC
 •	The different subnets within a VPC cant overlap
