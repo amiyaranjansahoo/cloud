@@ -28,4 +28,15 @@ automatically.
 •	We can create multiple VPC of same CIDR in one account, one region.
 •	Other user from other account also can create VPC of same CIDR in same region, where we have already created.
 ```
-
+### Subnet
+```sh
+•	Subnet is a smaller network inside VPC
+•	Without subnet we can't launch ec2 instances
+•	Subnet span availability zone
+•	Two subnets CIDT can’t overlap.
+```
+### CIDR Calculation
+```sh
+CIDR to IP: https://www.davidc.net/sites/default/subnets/subnets.html
+Visual Subnet Calculator: https://www.davidc.net/sites/default/subnets/subnets.html
+```
