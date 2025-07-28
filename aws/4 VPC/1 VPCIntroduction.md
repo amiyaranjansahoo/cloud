@@ -28,6 +28,12 @@ automatically.
 •	We can create multiple VPC of same CIDR in one account, one region.
 •	Other user from other account also can create VPC of same CIDR in same region, where we have already created.
 ```
+### Types of VPC 
+```sh
+There are 2 types of VPC
+1.	Default VPC
+2.	Custom VPC
+```
 ### Subnet
 ```sh
 •	Subnet is a smaller network inside VPC
@@ -39,4 +45,10 @@ automatically.
 ```sh
 CIDR to IP: https://www.davidc.net/sites/default/subnets/subnets.html
 Visual Subnet Calculator: https://www.davidc.net/sites/default/subnets/subnets.html
+```
+### Types of Subnet 
+```sh
+There are 2 types of subnet
+1.	Public Subnet
+2.	Private Subnet
 ```
