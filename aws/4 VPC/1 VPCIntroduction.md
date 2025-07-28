@@ -53,3 +53,13 @@ There are 2 types of subnet
 2.	Private Subnet
 ```
 Subnet sizing for IPv4: https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html
+### Components of VPC:
+```sh
+•	Route table
+•	Internet Gateway
+•	Security group
+•	Network ACL
+•	Peering connections
+•	Elastic IPs
+```
+
