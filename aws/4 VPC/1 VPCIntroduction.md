@@ -52,3 +52,4 @@ There are 2 types of subnet
 1.	Public Subnet
 2.	Private Subnet
 ```
+Subnet sizing for IPv4: https://docs.aws.amazon.com/vpc/latest/userguide/subnet-sizing.html
