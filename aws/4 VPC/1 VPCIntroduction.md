@@ -113,4 +113,6 @@ This means that you don't need to manually enter VPN routes to your route tables
 •	One internet gateway – I can use the same IG to multiple route table inside the same VPC 
 •	We can attach the IG to one VPC at a time. We cant attach one IG to multiple VPC at a time.
 ```
+<img width="463" height="407" alt="image" src="https://github.com/user-attachments/assets/320103e1-8d63-4e09-abd5-e717c0283a6a" />
+
 
