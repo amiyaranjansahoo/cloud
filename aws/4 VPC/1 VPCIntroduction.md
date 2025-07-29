@@ -66,8 +66,8 @@ Subnet sizing for IPv4: https://docs.aws.amazon.com/vpc/latest/userguide/subnet-
 ## Route table 
 ```sh
 •	Routers are used for connecting different networks
-•	A route table contains a set of rules, called routes, that are used to determine where network traffic from your subnet
-is directed.
+•	A route table contains a set of rules, called routes, that are used to determine where network traffic from your
+subnet is directed.
 •	Route tables are used for
 o	Connecting subnets within vpc
 o	Connecting subnets to internet
@@ -84,12 +84,13 @@ o	etc
 •	You can have 200 Route tables per VPC
 •	You can have 50 Route entries per route table
 •	Each subnet must be associated with only one route table at any given instance of time.
-•	If you do not specify a subnet to route table association, the subnet will be associated with the default VPC Route table.
+•	If you do not specify a subnet to route table association, the subnet will be associated with the default VPC
+Route table.
 •	You can also edit the Main Route table if you need. but you can’t delete the main route table
-•	However you can make a custom route table manually become the main route table ten you can delete the former main as it’s
-no longer a main route table
-•	Every route table has a default route, which allows a subnet to communicate with any subnet in the same vpc, we cannot
-delete the default route.
+•	However you can make a custom route table manually become the main route table ten you can delete the former
+main as it’s no longer a main route table
+•	Every route table has a default route, which allows a subnet to communicate with any subnet in the same vpc, we
+cannot delete the default route.
 ```
 ## Attributes in Route table
 ```sh
