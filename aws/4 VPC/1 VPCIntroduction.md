@@ -99,8 +99,7 @@ corporate network with a 172.16.0.0/12 CIDR.
 •	Target—The gateway, network interface, or connection through which to send the destination traffic; for example,
  an internet gateway.
 •	Propagation—Route propagation allows a virtual private gateway to automatically propagate routes to the route tables.
-This means that you don't need to manually enter VPN routes to your route tables. For more information about VPN
-routing options, see Site-to-Site VPN routing options in the Site-to-Site VPN User Guide.
+This means that you don't need to manually enter VPN routes to your route tables.
 ```
 ## Internet Gateway
 ```sh
