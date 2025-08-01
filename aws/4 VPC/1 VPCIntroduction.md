@@ -120,4 +120,17 @@ This means that you don't need to manually enter VPN routes to your route tables
 <img width="444" height="155" alt="image" src="https://github.com/user-attachments/assets/232c50a9-a765-41ae-9ca7-7bee5f9817ee" />
 
 
-
+## Demo
+```sh
+Create VPC: 192.168.0.0/24
+Create 2 subnets: public(192.168.0.0/26) and private(192.168.0.64/26)
+Create the InternetGateway and attach to public subnet
+Associate the public subnet to router
+Modify the route table to open for Internet
+Create one ec2 in public subnet
+Create one ec2 in private subnet
+Create the private router
+Create NAT instance
+Associate the private subbnet to private router
+Modify the route table
+```
