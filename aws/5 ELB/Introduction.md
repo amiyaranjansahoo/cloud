@@ -21,4 +21,28 @@
 so ELB can manage the infra at SSL termination 
 •	Its recommended to do SSL termination at ELB level not in EC2 level or in other way ELB is configured for SSL termination
 ```
+## Health check parameters
+```sh
+Response timeout
+  Default Range is 2-120 sec)# 5 seconds
+	The ELB pings to EC2 for health check and the response should come to ELB within 5 sec( default value), if not then ELB
+  will consider as unsucessful
+
+
+Health check Interval 
+The time interval between two ping request from ELB to EC2 is called as health check interval
+	Period of time between health checks
+	Defaults 30 seconds ( range is 5 to 300 sec)
+
+Un-healthy threshold 
+	The no of failure ping which will decide whether the EC2 is un healthy. 
+	Let’s say the configured value is 2, after 2 consecutive ping which are un-success, then the EC2 will be declared as
+  un healthy
+	No of consecutive failed health check that should occur before the instance is declared un-healthy
+	Default 2 ( Range 2 – 10)
+
+Healthy Threshold
+	No of consecutive successful health checks that must occur before the instance considered as healthy
+	Default 10 ( Range 2 - 10)
+```
 
