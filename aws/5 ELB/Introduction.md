@@ -45,4 +45,19 @@ Healthy Threshold
 	No of consecutive successful health checks that must occur before the instance considered as healthy
 	Default 10 ( Range 2 - 10)
 ```
+## Types of Load Balancer
+```sh
+1. Classic Load balancer (this is the first one introduced by AWS)
+	AWS says the previous generation load balancer donot use it.
+	layer 4 and layer 7
+	HTTP, HTTPS, TCP, SSL
+2. Application Load Balancer(this is the second done introduced by AWS)
+	7th layer – Application later of OSI
+	HTTP/HTTPS ( port 80, 443)
+3. Network Load balancer
+	Very fast LB, big latency LB, need response in fraction of sec
+	4th Layer – Transport layer
+	Works on TCP, UDP, TLS protocol
+4. Gateway Load balancer
+```
 
