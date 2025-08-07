@@ -31,3 +31,5 @@ NOTE: Traffic will be distributed across all the servers using Round-Robin Metho
 
 Pricing → ALB & NLB are free-tier eligible upto 750 hrs per month.
 ```
+<img width="1338" height="731" alt="image" src="https://github.com/user-attachments/assets/3f254ef1-26a3-4063-a71d-1d6610d41c1f" />
+
