@@ -13,5 +13,5 @@ Global load balancing is used for distribution over multiple Azure regions
 ```sh
 Regional load balancing is used for balancing load between resources within the same region.
 • Application Gateway
-• Application Gateway
+• Azure Load Balancer
 ```
