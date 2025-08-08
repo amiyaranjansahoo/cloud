@@ -1,5 +1,5 @@
 ## Types of LB
-Regional or Global Load Balancing
+Global and Regional Load Balancing
 
 ## GLOBAL
 ```sh
