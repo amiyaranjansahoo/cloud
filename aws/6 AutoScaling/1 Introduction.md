@@ -24,6 +24,8 @@ the same EC2, which is obviously not a perfect solution.
 •	This is very much cost effective.
 •	You can select the spot or on-demand EC2 for auto scaling. 
 •	You can integrate the ELB with AS and this is highly recommended.
+•	This is cost effective way of scaling
+•	Autoscaling itself is free but we are charged for ec2 instances it launches.
 ```
 ## 
 <img width="624" height="416" alt="image" src="https://github.com/user-attachments/assets/150a9bef-1920-48c5-87d7-906ca1593c40" />
@@ -61,6 +63,27 @@ load desired capacity is 15 then ASG launches 5 new instances.
 
 ## 3. Scaling policy => Metric type, target value
 ```sh
-Metric type: CPU utilisation ( If CPU utilisation is more than 80 % , add one EC2)
+•	Defines how much you want to scale based on defined conditions
+•	ASG uses alarms and policies to determine scaling.
+
+Example:
+Metric type:
+CPU utilisation ( If CPU utilisation is more than 80 % , add one EC2)
 and ( if CPU utilisation is less than 30 % decrease 1 EC2 )
+```
+
+## Health check 
+```sh
+Health check grace period:
+Let say we have our AMI, one EC2 on top of that we have tomcat, on top of that we have java application
+deployed. lets say it takes 60 seconds to come up fully including the EC2+tomcat + java deployment. If the health check was
+performed before 60 sec, then the AS will terminate the EC2 and try to launch one more same set EC2+tomcat + java and its keep on
+going in a infinite loop. Hence this parameter should be chosen more than 60 sec in current case example.
+
+Default Cool down:
+For example 300 sec, Once the AS adds EC2, up to next 300 sec, it won’t add any further EC2 though the conditioned matched to
+add further EC2 )
+The time duration gap between two scale in / scale out instances. 
+Lets say at 09:15 one scale out happened ( 1 EC2 added), and once again there is a requirement at 09:17 to add one more EC2,
+weather the EC2 will be added or not depending upon the configured value
 ```
