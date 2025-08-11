@@ -38,7 +38,7 @@ Creating Auto Scaling groups with launch configurations is not recommended
 •	Launch Template is a template used by auto scaling groups for launching ec2 instances.
 •	The type of instance will be scaled out or scaled in, It will be defined by launch configuration
 ```
-## Launch Template need to define the following details
+#### Launch Template need to define the following details
 ```sh
 •	AMI to use
 •	Private Key (Pem file)
@@ -59,5 +59,8 @@ load desired capacity is 15 then ASG launches 5 new instances.
 •	We can edit the ASG later as per the requirement
 ```
 
-3. Scaling policy => Metric type, target value
-Metric type: CPU utilisation ( If CPU utilisation is more than 80 % , add one EC2) and ( if CPU utilisation is less than 30 % decrease 1 EC2 )
+## 3. Scaling policy => Metric type, target value
+```sh
+Metric type: CPU utilisation ( If CPU utilisation is more than 80 % , add one EC2)
+and ( if CPU utilisation is less than 30 % decrease 1 EC2 )
+```
