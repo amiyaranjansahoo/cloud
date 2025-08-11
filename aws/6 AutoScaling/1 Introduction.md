@@ -28,12 +28,17 @@ the same EC2, which is obviously not a perfect solution.
 ## 
 <img width="624" height="416" alt="image" src="https://github.com/user-attachments/assets/150a9bef-1920-48c5-87d7-906ca1593c40" />
 
-## Launch Template
+## launch templates vs launch configurations
+```sh
+EC2 console only supports creating Auto Scaling groups with launch templates
+Creating Auto Scaling groups with launch configurations is not recommended
+```
+## 1. Launch Template
 ```sh
 •	Launch Template is a template used by auto scaling groups for launching ec2 instances.
 •	The type of instance will be scaled out or scaled in, It will be defined by launch configuration
 ```
-## Launch configuration need to define the following details
+## Launch Template need to define the following details
 ```sh
 •	AMI to use
 •	Private Key (Pem file)
@@ -41,9 +46,8 @@ the same EC2, which is obviously not a perfect solution.
 •	Security Group
 •	IAM role
 •	Instance Type
-•	You can’t edit launch configuration. You can create or copy
 ```
-## Auto scaling group 
+## 2. Auto scaling group 
 ```sh
 •	We need to define the Group name, , group size (minimum and maximum), VPC, Subnet, health check period
 •	Its group of EC2 instances part of autoscaling
@@ -54,3 +58,6 @@ load desired capacity is 15 then ASG launches 5 new instances.
 •	We can also integrate spot instances with auto scaling
 •	We can edit the ASG later as per the requirement
 ```
+
+3. Scaling policy => Metric type, target value
+Metric type: CPU utilisation ( If CPU utilisation is more than 80 % , add one EC2) and ( if CPU utilisation is less than 30 % decrease 1 EC2 )
