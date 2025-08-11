@@ -28,6 +28,9 @@ the same EC2, which is obviously not a perfect solution.
 •	Autoscaling itself is free but we are charged for ec2 instances it launches.
 ```
 ## 
+<img width="901" height="708" alt="image" src="https://github.com/user-attachments/assets/8f16c7cb-50ab-46ac-a462-28ebbac6917e" />
+
+## 
 <img width="624" height="416" alt="image" src="https://github.com/user-attachments/assets/150a9bef-1920-48c5-87d7-906ca1593c40" />
 
 ## launch templates vs launch configurations
