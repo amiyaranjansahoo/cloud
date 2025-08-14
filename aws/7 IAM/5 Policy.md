@@ -1,6 +1,8 @@
 # Policies
 ```sh
-•	It consists of permissions/ a set of rules 
+•	It consists of permissions/ a set of rules
+•	IAM policy is JSON document, containing a set of statements/permission, which describes AWS operations and
+it can be attached to user, group and IAM role
 ```
 ## Types of Policy
 ```sh
@@ -20,3 +22,5 @@ Inline Policies :
 •	These are custom Inline Polices.....
 •	Once You delete IAM User/Group, along with the Entities the inline Policy will also be deleted.
 ```
+<img width="678" height="361" alt="image" src="https://github.com/user-attachments/assets/44cc4c84-f52d-43ad-9b8a-79ffc8d89cb4" />
+
