@@ -22,7 +22,8 @@ management task.
 •	It is a lifetime free service
 •	IAM allows you to manage users and their level of access to the AWS console.
 •	IAM is a web service that helps you securely control access to AWS resources.
-•	IAM is used to control who is authenticated (sign-in process ) and who has authorization ( permissions) to access all the AWS resources.
+•	IAM is used to control who is authenticated (sign-in process ) and who has authorization ( permissions) to access
+all the AWS resources.
 •	If we have one elb and that want to store S3 for storing the access logs, the IAM permission is required on
 elb for S3.
 ```
@@ -51,10 +52,10 @@ IAM users and setting up billing preferences.
 
 
 IAM User:
-•	Permissions: IAM users have permissions that are assigned to them based on policies. These permissions can be
-limited and restricted to specific services and actions.
-•	Security: IAM users have limited access to the AWS account based on the permissions assigned to them, reducing
-the risk if their credentials are compromised.
+•	Permissions: IAM users have permissions that are assigned to them based on policies. These permissions can be limited
+and restricted to specific services and actions.
+•	Security: IAM users have limited access to the AWS account based on the permissions assigned to them, reducing the 
+risk if their credentials are compromised.
 •	Best Practice: IAM users should be used for everyday tasks and should be assigned the minimum permissions necessary
 to perform their job functions.
 •	Use Cases: IAM users are used for day-to-day operations in AWS, such as accessing resources, managing configurations,
