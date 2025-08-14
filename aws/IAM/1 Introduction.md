@@ -18,17 +18,47 @@ Root user
 •	Use other IAM user accounts to manage the administrative task of your account 
 •	Keep the root user credential in a secured and safe place and use them to perform only a few account and service
 management task.
-•	This is globally accessible i.e. if you create an user, it will be shown in AWS console irrespective of any regions
+•	It is a global service
+•	It is a lifetime free service
+•	IAM allows you to manage users and their level of access to the AWS console.
+•	IAM is a web service that helps you securely control access to AWS resources.
+•	IAM is used to control who is authenticated (sign-in process ) and who has authorization ( permissions) to access all the AWS resources.
 •	If we have one elb and that want to store S3 for storing the access logs, the IAM permission is required on
 elb for S3.
 ```
 <img width="940" height="444" alt="image" src="https://github.com/user-attachments/assets/5590cd89-c5f9-4f7d-8ecb-0716fa92ac07" />
 
 
-## Cost
+## Components Of IAM:
 ```
-•	Its free to use
-•	AWS IAM is a feature of your AWS account offers at no additional cost
+•	There are four Components of IAM:
+    o Users
+    o Roles
+    o User Groups
+    o Policies
+```
+## Differences Between Root User and IAM User
+```sh
+Root User:
+•	Permissions: The root user has full access to all AWS services and resources. It cannot be restricted or limited in its
+permissions.
+•	Security: The root user has unrestricted access to the AWS account, making it a security risk if the credentials are
+compromised.
+•	Best Practice: AWS recommends that the root user not be used for everyday tasks and that its credentials be stored
+securely.
+•	Use Cases: The root user is typically used for initial setup and management of the AWS account, such as creating
+IAM users and setting up billing preferences.
+
+
+IAM User:
+•	Permissions: IAM users have permissions that are assigned to them based on policies. These permissions can be
+limited and restricted to specific services and actions.
+•	Security: IAM users have limited access to the AWS account based on the permissions assigned to them, reducing
+the risk if their credentials are compromised.
+•	Best Practice: IAM users should be used for everyday tasks and should be assigned the minimum permissions necessary
+to perform their job functions.
+•	Use Cases: IAM users are used for day-to-day operations in AWS, such as accessing resources, managing configurations,
+and performing administrative tasks.
 ```
 
 
