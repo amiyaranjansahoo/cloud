@@ -29,15 +29,6 @@ elb for S3.
 ```
 <img width="940" height="444" alt="image" src="https://github.com/user-attachments/assets/5590cd89-c5f9-4f7d-8ecb-0716fa92ac07" />
 
-
-## Components Of IAM:
-```
-•	There are four Components of IAM:
-    o Users
-    o Roles
-    o User Groups
-    o Policies
-```
 ## Differences Between Root User and IAM User
 ```sh
 Root User:
@@ -50,7 +41,6 @@ securely.
 •	Use Cases: The root user is typically used for initial setup and management of the AWS account, such as creating
 IAM users and setting up billing preferences.
 
-
 IAM User:
 •	Permissions: IAM users have permissions that are assigned to them based on policies. These permissions can be limited
 and restricted to specific services and actions.
@@ -60,6 +50,22 @@ risk if their credentials are compromised.
 to perform their job functions.
 •	Use Cases: IAM users are used for day-to-day operations in AWS, such as accessing resources, managing configurations,
 and performing administrative tasks.
+```
+## Components Of IAM:
+```sh
+•	There are four Components of IAM:
+    o Users
+            IAM users are entities that you create in AWS to represent the people or services that interact with AWS services.
+Each user has a unique set of security credentials.
+   o User Groups
+            Groups are collections of IAM users. You can assign permissions to groups, making it easier to manage permissions
+for multiple users.
+    o Roles
+            IAM roles are similar to users, but they are intended for temporary use by applications, services, or other entities.
+Roles have policies attached to them, which define the permissions that the role has.
+    o Policies
+            IAM policies are JSON documents that define the permissions for users, groups, and roles. Policies can be attached to
+users, groups, and roles to grant or deny access to AWS resources.
 ```
 
 
