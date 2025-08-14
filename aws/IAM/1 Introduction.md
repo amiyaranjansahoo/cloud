@@ -31,7 +31,7 @@ elb for S3.
 
 ## Differences Between Root User and IAM User
 ```sh
-Root User:
+##### Root User:
 •	Permissions: The root user has full access to all AWS services and resources. It cannot be restricted or limited in its
 permissions.
 •	Security: The root user has unrestricted access to the AWS account, making it a security risk if the credentials are
@@ -41,7 +41,7 @@ securely.
 •	Use Cases: The root user is typically used for initial setup and management of the AWS account, such as creating
 IAM users and setting up billing preferences.
 
-IAM User:
+##### IAM User:
 •	Permissions: IAM users have permissions that are assigned to them based on policies. These permissions can be limited
 and restricted to specific services and actions.
 •	Security: IAM users have limited access to the AWS account based on the permissions assigned to them, reducing the 
