@@ -24,9 +24,8 @@ version of installed Azure CLI tool
 ```
 ## Azure CLI Authentication
 ```sh
-After the Azure CLI installed in the locam machine,then to use azure cli commands to create resource/infrastructure
-in the Azure cloud,we should authenticate with the azure cloud from the local machine by using the following azure
-cli command
+We can install azure cli in Azure Cloud Shell, local laptop or in a Azure VM. 
+After the Azure CLI is installed, then authenticate using the below command
 
                                 az login
 
