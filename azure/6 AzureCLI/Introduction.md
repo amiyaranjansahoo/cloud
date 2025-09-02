@@ -35,6 +35,8 @@ After login we can use the azure cli commands to create the resources like vnet,
 # Azure cli Documents Ref
 ```sh
 https://learn.microsoft.com/en-us/cli/azure/reference-docs-index?view=azure-cli-latest
+Install => Installation reference
+conceptual articles => CLI Reference
 ```
 
 ## Azure cli command to create vnet & subnets in azure account:
