@@ -81,3 +81,28 @@ az network vnet subnet create \
   --name subnet2 \
   --address-prefix 10.0.2.0/24
 ```
+## azure cli command to create the virtual machine
+```sh
+syntax:
+az vm create \
+  --resource-group <ResourceGroupName> \
+  --name <VMName> \
+  --image <ImageName> \
+  --admin-username <AdminUsername> \
+  --admin-password <AdminPassword>
+```
+## Explanation:
+```sh
+--resource-group: The name of the resource group where the VM will be created (must already exist).
+--name: The name you want to assign to the VM.
+--image: The OS image to use, like UbuntuLTS, Win2019Datacenter, etc.
+--admin-username: The admin username for the VM.
+--admin-password: The admin password for the VM (for Linux, you can also use --ssh-key-value to provide an SSH key instead).
+Example:
+az vm create \
+  --resource-group MyResourceGroup \
+  --name MyVM \
+  --image UbuntuLTS \
+  --admin-username azureuser \
+  --ssh-key-value ~/.ssh/id_rsa.pub
+```sh
