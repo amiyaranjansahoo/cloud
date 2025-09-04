@@ -28,7 +28,7 @@ We can install azure cli in Azure Cloud Shell, local laptop or in a Azure VM.
 After the Azure CLI is installed, then authenticate using the below command
 
                                 az login
-
+                           az login --tenant <tennant id>
 By using the above command will open the UI window/prompt to enter the azure subscription credentials to login
 After login we can use the azure cli commands to create the resources like vnet,subnets,vm's,Application gateways etc...
 ```
