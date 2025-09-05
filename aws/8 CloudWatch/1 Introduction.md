@@ -25,5 +25,27 @@ instance, processes running on your instance, the amount of free disk space avai
 of your instance.
 •	And the CloudWatch agent running on your instance can collect these metrics and send them into CloudWatch.
 •	How much granularity you get with CloudWatch? How frequently are the metrics being sent? 
+•	By default, EC2 sends metric data into CloudWatch in 5‑minute intervals. However, if you need more granularity than
+ that, then for an additional charge, you can enable detailed monitoring, which sends the metrics at 1‑minute intervals.
+•	And for custom metrics, the default is 1‑minute intervals, but you can configure high resolution metrics, which are
+sent at 1‑second intervals.
+•	But just be aware when you increase the frequency of metrics collection, you will incur additional charges.
+•	Now, in addition to operating system metrics, we can also use CloudWatch to monitor the contents of system and
+application  logs. So you can monitor and troubleshoot your applications using existing system and application
+log files.
+•	So if any error messages or warnings appear in your application log files, then these can be sent into CloudWatch and
+ it is completely customizable for your application. 
+•	So with CloudWatch Logs, you can monitor your logs in near real time for specific phrases, values, or patterns that
+ you define.
+•	And as this is a customizable feature, it requires the CloudWatch agent. And one common use case for CloudWatch Logs
+ is to
+ track the number of errors that occur in your application log and send a notification whenever the rate of errors
+exceeds a  threshold that you specify onto CloudWatch Alarms. And you can create an alarm to monitor any CloudWatch
+metric in your account.
+•	And this can include EC2 CPU utilization, Elastic Load Balancer latency, or even the estimated charges on your AWS bill.
+•	So you can set appropriate thresholds to trigger the alarms and actions to be taken if an alarm state is reached.
+And a popular  use case is to set an alarm which sends you a notification or executes an auto scaling policy if CPU
+utilization exceeds 90% on your EC2 instance for more than 5 minutes.
+
 
 ```
