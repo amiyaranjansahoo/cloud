@@ -10,9 +10,9 @@ to CloudWatch.
 ## CloudWatch alarm
 ```sh
 A metric alarm has the following possible states:
+•	INSUFFICIENT_DATA – The alarm has just started, the metric is not available, or not enough data is available
 •	OK – The metric or expression is within the defined threshold.
 •	ALARM – The metric or expression is outside of the defined threshold.
-•	INSUFFICIENT_DATA – The alarm has just started, the metric is not available, or not enough data is available
  for the metric to determine the alarm state. The data is not sufficient to take any action
 ```
 ## CloudWatch Namespace
