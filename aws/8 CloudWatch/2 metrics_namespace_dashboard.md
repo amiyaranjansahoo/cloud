@@ -7,6 +7,14 @@ to CloudWatch.
 •	For example, think about the CPU usage on an EC2 instance and the unit of measurement will be a percentage. 
 •	And CloudWatch metrics are uniquely defined by a name, a namespace, and zero or more dimensions.
 ```
+## CloudWatch alarm
+```sh
+A metric alarm has the following possible states:
+•	OK – The metric or expression is within the defined threshold.
+•	ALARM – The metric or expression is outside of the defined threshold.
+•	INSUFFICIENT_DATA – The alarm has just started, the metric is not available, or not enough data is available
+ for the metric to determine the alarm state. The data is not sufficient to take any action
+```
 ## CloudWatch Namespace
 ```sh
 •	A namespace is simply a container for CloudWatch metrics. 
