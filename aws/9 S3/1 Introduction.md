@@ -1,3 +1,4 @@
+## Simple Storage Services
 ```sh
 •	S3 is highly available, durable, scalable, fault tolerance object based storage.(data is
  stored as an Object )
@@ -30,5 +31,24 @@ multiple locations ( minimum 3 location in same region)
 •	Its best place to put binary data like photos, videos, audios, pdf, worddoc, etc.
 •	DevOps people use S3 for storing artifacts, war, jar, zip, exe files etc..
 •	For storing and processing log files
-
 ```
+## S3 bucket naming rules
+```sh
+•	S3 bucket name are globally unique across all AWS regions
+•	Bucket names must begin and end with a letter or number.
+•	Bucket names can consist only of lowercase letters, numbers, dots (.), and hyphens (-).
+•	Bucket name can’t start or end with a hyphen.
+•	Bucket name should not be an IP address 
+•	Bucket names cannot be change after they are created.
+•	If a bucket is deleted, its name becomes available again to you or other account to use
+•	Bucket names must be at least 3 and no more than 63 characters long
+•	Bucket names are part of the URL used to access a bucket
+•	Bucket names can contain lowercase numbers and hyphen but cannot use upper case letter.
+•	By default bucket and its object are private and only the owner can access.
+```
+## S3 Objects
+```sh
+•	An object size stored in an S3 bucket can be 0 byte to 5 TB
+•	Each object is stored and retrieved by a unique key ( ID or name)
+```
+
