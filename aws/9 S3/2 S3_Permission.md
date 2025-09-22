@@ -18,9 +18,12 @@ Use xml schema
 ```sh
 •	Grants permission for the bucket and objectswithin to AWS accounts
 and IAM users.
-•	Uses json
+•	Bucket policies are defined in json
 •	Can be used to grant fine-grained permission.
 •	In most of the cases but not in all cases, they replaces ACLS
+•   Can explicitely deny access.
+•   Can grant conditional permissions
+•   Not applied by default.
 ```
 ## User Policy
 ```SH
