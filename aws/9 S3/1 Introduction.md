@@ -3,13 +3,7 @@
 •	S3 is highly available, durable, scalable, fault tolerance object based storage.(data is
  stored as an Object )
 •	S3 is an internet based service.
-•	Use Cases of S3
-•	It's used for data lake (The storage to put unlimited amount of data)
-•	Its best place to put binary data like photos, videos, audios, pdf, worddoc, etc..
-•	DevOps people use S3 for storing artifacts, war, jar, zip, exe files etc..
 •	For storing and processing log files
-•	We can store unlimited amounts of data on S3, however an object size can't be more than
-5TB.
 •	S3 is a storage for the internet.
 •	S3 is highly available, durable, scalable, fault tolerance object based storage
 •	It has a simple web services interface for the simple storing  and retrieving of any amount
@@ -31,6 +25,8 @@ multiple locations ( minimum 3 location in same region)
 •	Its best place to put binary data like photos, videos, audios, pdf, worddoc, etc.
 •	DevOps people use S3 for storing artifacts, war, jar, zip, exe files etc..
 •	For storing and processing log files
+•	We can store unlimited amounts of data on S3, however an object size can't be more than
+5TB.
 ```
 ## S3 bucket naming rules
 ```sh
