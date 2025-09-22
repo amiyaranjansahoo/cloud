@@ -32,4 +32,14 @@ if the same key ( name) is used to store another objects, it will override the
 existing one.
 •	An object detention in  a suspended versioning bucket , will only delete the
  object with ID null
+•	Its enabled, when you upload same objects multiple times and each copy is
+discrete 
+•	if you upload same 5 GB video 10 times on S3, this object is stored with 10
+different versions which will occupy the size 10*5 = 50GB
+•	If you delete an object, when versioning is enabled it won’t physically
+delete the object instead S3 adds DELETE marker. you can restore your object by
+deleting the DELETE marker
+•	Once versioning is enabled, you can’t disable but you can only suspend.
+•	Select the Bucket => properties => Versioning
+
 ```
