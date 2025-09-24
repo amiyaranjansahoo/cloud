@@ -17,6 +17,8 @@
 12. Objects Smaller Than 128 KB Cannot Be Transitioned by Default
         This includes Standard-IA, One Zone-IA, Intelligent-Tiering, and Glacier classes.
 ```
+<img width="1064" height="328" alt="image" src="https://github.com/user-attachments/assets/3955666e-ce50-47c8-b29b-17a0300691c5" />
+
 
 ## rule scope
 ```sh
