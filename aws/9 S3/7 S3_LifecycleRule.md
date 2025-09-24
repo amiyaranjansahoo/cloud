@@ -20,9 +20,6 @@
 <img width="1064" height="328" alt="image" src="https://github.com/user-attachments/assets/3955666e-ce50-47c8-b29b-17a0300691c5" />
 
 
-## rule scope
-```sh
-1.  Limit the scope of this rule using one or more filters : We can select one or more object by mentioning the folder name in below prefix filed 
 ## Demo
 ```sh
 1.	Move 30 days old objects from standard to standard IA
