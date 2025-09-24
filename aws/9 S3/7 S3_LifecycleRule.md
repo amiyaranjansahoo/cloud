@@ -1,11 +1,21 @@
 ```sh
 1.  This automates transitioning of objects from high storage tiers to low storage tiers.
-2.	It also can expire/delete your objects eventually over a fixed amount of time.
+2.	 It also can expire/delete your objects eventually over a fixed amount of time.
 3.  S3 life cycle management is basically a feature that allows you to specify rules that define how your object
  is managed throughout its lifetime within S3.
 4.  It allows you to do is to switch your objects between different storage classes.
 5.  It enables you to reduce cost.
-6.  We can 
+6.  We can enable the rule for one or multiple buckets.
+7.  Rules can be applied to a whole bucket or a subset of objects.
+8.  Can be configured using console, CLI, SDK etc
+9.  We cant configure back to previous storage class # deep archive storage class can't be transitioned back
+10. Intelligent tearing can only transition to glacier or onezone.
+11. Objects must be stored for at least 30 days before they can be transitioned to:
+         S3 Standard-IA
+         S3 One Zone-IA
+         S3 Intelligent-Tiering (Infrequent Access tier)
+12. Objects Smaller Than 128 KB Cannot Be Transitioned by Default
+        This includes Standard-IA, One Zone-IA, Intelligent-Tiering, and Glacier classes.
 ```
 
 ## rule scope
