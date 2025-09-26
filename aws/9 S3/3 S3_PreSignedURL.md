@@ -18,7 +18,7 @@ until it expires.
 ```
 ## Key points:
 ```sh
-•	Expiration can be from 1 second up to 7 days (default max with AWS SDK/CLI).
+•	Expiration can be from 1 second up to 12 hours (default max with AWS SDK/CLI).
 •	Works only for the action you specify (get_object, put_object).
 •	After expiration, the link is invalid.
 ```
