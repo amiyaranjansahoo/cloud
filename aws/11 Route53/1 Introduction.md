@@ -54,6 +54,43 @@ domain name system how you want traffic to be routes for that domain. # this is
  to route the traffic for a domain and its sub-domains.
 •	www.cloud.com is the domain , support@cloud.com, info@cloud.com are the
 sub-domains.
+•	Hosted domains are of 2 types.
+•	You can create public (internet) hosted zone or private (Internal) hosted zones.
+private domain only accessible inside VPC.
+•	For each public hosted zone that you create Amazon Route 53 automatically
+creates a name server(NS) record and start of Authority( SOA) record. Do not change
+ these record ( NS & SOA )
+•	Route53 automatically creates name sever ( NS) record with the same name as your
+hosted zone, if you are creating the domain in AWS route53..
+•	It lists the four name servers that are the authoritative name servers for your
+ hosted zones.
+•	Do not add, change or delete name server in this record.
+•	When you create a hosted zone, AMAZON route53 automatically creates a name
+Server (NS) records and a start of authority record (SOA) for the zone.
+•	the NS record identifies the four name servers that you give to your register
+ or your DNS service so that DNS queries are routed to Route53 name servers.
+•	By default, Route53 assigns a unique set of four name servers ( known
+collectively as a delegation set) to each hosted zone that you create.
+•	  ns-1337 awsdns-39.com
+•	  ns-895 awsdns-47.net
+•	  ns-428 awsdns-s3.org
+•	  ns-1597 awsdns-07.co.uk
+
 ```
+## Route53 hosted zone default entries:
+```sh
+Inside the hosted zone by default you have 2 entries.
+NS entry: Contains the unique sets of name servers for the hosted zone.
+SOA entry: Contains information about the hosted zone.
+```
+## SOA
+```sh
+•	Start Of Authority
+•	It’s another record like NS
+•	stores important information about a domain or zone
+•	The important information could be the email address of the administrator, when
+ the domain was last updated, and how long the server should wait between refreshes
+```
+
 
 
