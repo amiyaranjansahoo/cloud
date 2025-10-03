@@ -40,3 +40,20 @@ registered with another domain register
  migrated  to AWS ( in order words your server is in AWS) in that case you can
  also use the Route53 to redirect to AWS.
 ```
+## 	Route53 hosted zone:
+```sh
+•	A route53 hosted zone is a collection of records for a specified domain.
+•	The hosted zone where our name server and SOA of my domain reside/hosts.
+•	You create a hosted zone for a domain and then you create records to tell the
+domain name system how you want traffic to be routes for that domain. # this is
+ when you have bought the domain from outside like godaddy
+•	When we create/bought a DNS in route 53, automatically the hosted zone and name
+ server gets created but if we have bought/created the DNS outside of AWS, then we
+ have to create the hosted zone and name server explicitly.
+•	Basically a hosted zone is a container that holds information about how you want
+ to route the traffic for a domain and its sub-domains.
+•	www.cloud.com is the domain , support@cloud.com, info@cloud.com are the
+sub-domains.
+```
+
+
