@@ -39,5 +39,16 @@ Point-In-Time Recovery (PITR) in Amazon RDS allows you to restore your database 
 PITR uses your automated database backups and transaction logs to restore your database to the specified point in time.
 ```
 
+## Demo1
+```sh
+1. Create an Aurora Database instance with MySQL Compatibility Edition using Single-AZ deployment.
+2. Create an Aurora Database instance with MySQL Compatibility Edition using Multi-AZ deployment.
+```
+```sh
+1.	Create an Aurora DB and Connect your MySQL WorkBench and create an table.
+2.	Create an Manual Snapshot of AuroraDB
+3.	Copy snapshots from N.Virginia to Mumbai Region.
+```
+
 
 
