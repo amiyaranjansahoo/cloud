@@ -31,3 +31,57 @@ Use cases for RDS in the real world include:
 	Storing and analyzing business data for reporting and decision-making.
 	Building e-commerce platforms with a robust and scalable database infrastructure.
 ```
+## Demo
+### Create a mysql database
+```sh
+1. Create a Database instance in Mumbai Region as per the below requirement.
+
+	Database Instance Identifier	   - testdb                             
+	Database MAster  Name	    -   admin
+	Master PAssword    -  Passowrd
+	instance type		-         db.t3.micro
+	Storage		      - 25 GB of gp3
+	Deployment Method	-      Single-AZ Deployment
+	Database ENgine		- MySQL (latest Version/Recommended)
+	Automated Snapshots	- Enable at 06:30AM IST everyday
+	Retention Period	- 7 Days
+```
+### Connect from ec2/local laptop
+```sh
+Download MySQL WorkBench: https://dev.mysql.com/downloads/workbench/
+Login to the MySQL Database instance and create a table "StudentDetails" and load some sample data. (10 entries)
+		mysql -h mydatabaseinstance.crwuc8ai6oma.us-east-1.rds.amazonaws.com -u admin -padmin12345
+```
+### Create the structure
+```sh
+CREATE DATABASE school;
+USE school;
+
+ CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    gender VARCHAR(10),
+    grade VARCHAR(2)
+);
+```
+### Insert the data
+```sh
+INSERT INTO students (id, name, age, gender, grade) VALUES
+(1, 'Alice', 18, 'Female', 'A'),
+(2, 'Bob', 17, 'Male', 'B'),
+(3, 'Charlie', 16, 'Male', 'C'),
+(4, 'Diana', 17, 'Female', 'A'),
+(5, 'Eve', 18, 'Female', 'B'),
+(6, 'Frank', 16, 'Male', 'C'),
+(7, 'Grace', 17, 'Female', 'A'),
+(8, 'Harry', 18, 'Male', 'B'),
+(9, 'Ivy', 16, 'Female', 'C'),
+(10, 'Jack', 17, 'Male', 'A');
+
+Select * from students
+```
+
+
+
+
