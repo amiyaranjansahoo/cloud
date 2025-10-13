@@ -48,6 +48,7 @@ Use cases for RDS in the real world include:
 ```
 ### Connect from ec2/local laptop
 ```sh
+Download Microsoft’s Visual C++ 2019 Redistributable: 	https://aka.ms/vs/17/release/vc_redist.x64.exe
 Download MySQL WorkBench: https://dev.mysql.com/downloads/workbench/
 Login to the MySQL Database instance and create a table "StudentDetails" and load some sample data. (10 entries)
 		mysql -h mydatabaseinstance.crwuc8ai6oma.us-east-1.rds.amazonaws.com -u admin -padmin12345
