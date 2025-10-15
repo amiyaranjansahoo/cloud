@@ -50,6 +50,35 @@ PITR uses your automated database backups and transaction logs to restore your d
 2.	Create an Manual Snapshot of AuroraDB
 3.	Copy snapshots from N.Virginia to Mumbai Region.
 ```
+### Create the structure
+```sh
+CREATE DATABASE school;
+USE school;
+
+ CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    gender VARCHAR(10),
+    grade VARCHAR(2)
+);
+```
+### Insert the data
+```sh
+INSERT INTO students (id, name, age, gender, grade) VALUES
+(1, 'Alice', 18, 'Female', 'A'),
+(2, 'Bob', 17, 'Male', 'B'),
+(3, 'Charlie', 16, 'Male', 'C'),
+(4, 'Diana', 17, 'Female', 'A'),
+(5, 'Eve', 18, 'Female', 'B'),
+(6, 'Frank', 16, 'Male', 'C'),
+(7, 'Grace', 17, 'Female', 'A'),
+(8, 'Harry', 18, 'Male', 'B'),
+(9, 'Ivy', 16, 'Female', 'C'),
+(10, 'Jack', 17, 'Male', 'A');
+
+Select * from students
+```
 
 
 
