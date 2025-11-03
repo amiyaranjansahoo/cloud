@@ -32,3 +32,11 @@ Relationships are handled differently, such as embedding or referencing within t
 •	You're charged for read write operations with Dynamo DB
 •	We can also set up our auto scaling other than the default setting.
 ```
+## Demo
+```sh
+Entry 1
+Id: 1, name: amit, course: cloud
+Id: 2, qualification: BE, Country: India
+Id: 3, name: andy, timing: morning
+Id: 4, name: lucee, age: 22
+```
