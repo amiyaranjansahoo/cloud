@@ -32,6 +32,14 @@ Relationships are handled differently, such as embedding or referencing within t
 •	You're charged for read write operations with Dynamo DB
 •	We can also set up our auto scaling other than the default setting.
 ```
+## Real time implementation
+```sh
+E-Commerce Platforms
+Scenario: Storing product catalogs, shopping carts, and user sessions.
+
+Gaming Applications
+Scenario: Track player progress, scores, and game states.
+```
 ## Demo
 ```sh
 Entry 1
