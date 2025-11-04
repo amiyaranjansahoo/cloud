@@ -51,6 +51,7 @@ Use cases for RDS in the real world include:
 Download Microsoft’s Visual C++ 2019 Redistributable: 	https://aka.ms/vs/17/release/vc_redist.x64.exe
 Download MySQL WorkBench: https://dev.mysql.com/downloads/workbench/
 Login to the MySQL Database instance and create a table "StudentDetails" and load some sample data. (10 entries)
+yum list all | grep -i client | grep -i mariadb
 		mysql -h mydatabaseinstance.crwuc8ai6oma.us-east-1.rds.amazonaws.com -u admin -padmin12345
 ```
 ### Create the structure
