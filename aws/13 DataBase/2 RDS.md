@@ -52,7 +52,16 @@ Download Microsoft’s Visual C++ 2019 Redistributable: 	https://aka.ms/vs/17/re
 Download MySQL WorkBench: https://dev.mysql.com/downloads/workbench/
 Login to the MySQL Database instance and create a table "StudentDetails" and load some sample data. (10 entries)
 yum list all | grep -i client | grep -i mariadb
-		mysql -h mydatabaseinstance.crwuc8ai6oma.us-east-1.rds.amazonaws.com -u admin -padmin12345
+mysql -h mydatabaseinstance.crwuc8ai6oma.us-east-1.rds.amazonaws.com -u admin -padmin12345
+```
+### Show the database
+```sh
+SHOW DATABASES;
+USE database_name;
+After selecting a database, check what tables are inside it:
+SHOW TABLES;
+DESCRIBE table_name;
+SELECT * FROM table_name;
 ```
 ### Create the structure
 ```sh
