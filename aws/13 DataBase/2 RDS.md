@@ -63,11 +63,13 @@ SHOW TABLES;
 DESCRIBE table_name;
 SELECT * FROM table_name;
 ```
-### Create the structure
+### Create the Schema / Database
 ```sh
 CREATE DATABASE school;
 USE school;
-
+```
+### Create the table inside the schema
+```sh
  CREATE TABLE students (
     id INT PRIMARY KEY,
     name VARCHAR(255),
@@ -76,7 +78,7 @@ USE school;
     grade VARCHAR(2)
 );
 ```
-### Insert the data
+### Insert the data inside the table
 ```sh
 INSERT INTO students (id, name, age, gender, grade) VALUES
 (1, 'Alice', 18, 'Female', 'A'),
