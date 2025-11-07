@@ -21,6 +21,8 @@ In SDLC (Waterfall Model)
       Take the integrated code
       Build the code (compile, test)
       Send immediate feedback about bugs (Using email or communicator)
+<img width="1069" height="498" alt="image" src="https://github.com/user-attachments/assets/410e1c7f-3ee8-4cc9-bb03-0b54c016c849" />
+
 2. Continuous Delivery (CD)
       helps is automating the deployments to production
       Approval is required to release to production
