@@ -16,6 +16,19 @@ It is written on "C" programming Language
 It came in to the market on the year 2005
 A version Control System will manage the changes to documents, computer programs,large websites & other collection of information.
 ```
+### Types of Version Control System:
+```sh
+--------------------------------
+-->The different types of version control system are as follows:
+
+         1)Local
+
+         2)Centralized
+
+         3)Distributed
+```
+<img width="2470" height="963" alt="image" src="https://github.com/user-attachments/assets/03a841a1-2050-4178-8cf9-61b8462ce211" />
+
 
 ## Installation of Git Tool:
 #### In windows Machine:
