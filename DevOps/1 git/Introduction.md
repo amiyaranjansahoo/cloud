@@ -87,11 +87,11 @@ To check the version of git, open command prompt & use the command "git -v"
 
 -->By using "git init" in the project folder will create three stages as follows:
 
-                     1)Local Repository
+                     1)Working Directory
 
                      2)Staging/Caching
 
-                     3)Working Directory
+                     3)Local Repository
 
 -->By default by creating the code/file in project will be present in "Working Directory" which means in "untracked mode"
 
