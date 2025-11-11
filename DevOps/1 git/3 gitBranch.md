@@ -40,8 +40,13 @@ git checkout -b <branch name>
 Ex: git checkout -b LoginModule 
 
 Notes:
-=>While creating the new branches from the master branch or any other branch, then all the commits/code/files of the master branch will comes to new branches.
-=>The new commits/files/code of new branch will not be available in the master branch untill/unless we merge/combine the new branch to master branch 
-=>After creating the new branches from the master branch,then if you create new commit in the master branch then we cannot see that commit in the new branches,that is whatever the commits we had in the master branch at the time of creation of branches only those will comes to new branches
-=>So,to see the new commits of all new branches in the master branch,we can merge/combine/mix all the new branches to the master branch.
+=>While creating the new branches from the master branch or any other branch, then all the commits/code/files of the master
+  branch will comes to new branches.
+=>The new commits/files/code of new branch will not be available in the master branch untill/unless we merge/combine the
+  new branch to master branch 
+=>After creating the new branches from the master branch,then if you create new commit in the master branch then we cannot
+  see that commit in the new branches,that is whatever the commits we had in the master branch at the time of creation of
+  branches only those will comes to new branches
+=>So,to see the new commits of all new branches in the master branch,we can merge/combine/mix all the new branches to
+  the master branch.
 ```
