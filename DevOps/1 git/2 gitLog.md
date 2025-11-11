@@ -67,12 +67,12 @@ syntax:
 
            Ex:
            ---
-                  #git log --author="satish"
+                  #git log --author="amiya"
 
 
 To check the commits with different options in the single command:
 ------------------------------------------------------------------
 
-         #git log --online --author="satish" --since=2024-05-10
+         #git log --online --author="amiya" --since=2024-05-10
 
 
