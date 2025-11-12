@@ -57,7 +57,7 @@ Suppose you accidentally named your branch feature_chat but your team follows th
 You can rename it like this:
 ```
 
-## Merging:
+## Branch Merging:
 ```sh
 Merging means combining/mixing the two branches with each other.
 we can merge a source branch to the target branch
