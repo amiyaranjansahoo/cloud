@@ -50,3 +50,16 @@ Notes:
 =>So,to see the new commits of all new branches in the master branch,we can merge/combine/mix all the new branches to
   the master branch.
 ```
+## Renaming a Branch
+```sh
+git branch -m feature_chat feature/chat
+Suppose you accidentally named your branch feature_chat but your team follows the convention feature/chat.
+You can rename it like this:
+```
+## Deleting the branch - Force delete
+```sh
+git branch -D feature_chat
+
+Note: This forcefully removes the branch, even if changes are not merged.
+```
+
