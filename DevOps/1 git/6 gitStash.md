@@ -27,7 +27,9 @@ Ex:
 git stash apply stash@{0} # This command will get back the changes by using specific index value of stash
 
 Note:
-"apply" command will get back the copy of the changes from stash memory in which original copy will still available in the stash
+"apply" command will get back the copy of the changes from stash memory in which original copy will still available
+in the stash
+
 To delete the original copy from the stash we can use the following command
 git stash drop
 
