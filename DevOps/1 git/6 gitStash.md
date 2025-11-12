@@ -19,7 +19,10 @@ git stash list
 ## get back the changes to the Project from stash memory
 ```sh
 git stash apply
-git stash apply stash@{<index value>} #This command will get back the changes which pushed lastly or latest change, that is LIFO
+
+git stash apply stash@{<index value>}
+This command will get back the changes which pushed lastly or latest change, that is LIFO
+
 Ex:
 git stash apply stash@{0} # This command will get back the changes by using specific index value of stash
 
