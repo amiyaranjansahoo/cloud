@@ -56,8 +56,31 @@ git branch -m feature_chat feature/chat
 Suppose you accidentally named your branch feature_chat but your team follows the convention feature/chat.
 You can rename it like this:
 ```
+
+## Merging:
+```sh
+Merging means combining/mixing the two branches with each other.
+we can merge a source branch to the target branch
+Source branch means a branch which is going to merge to another branch
+Target branch means to which branch a source branch is merging
+
+Example:
+master(target) <----------------- feature(source)
+UAT (target) <------------------- LoginModule (source)
+PROD (target) <------------------  feature1 (source)
+
+To merge a branch in another branch we should be in target branch only
+While merging the branches we cannot be in the source branch
+
+## Command to merge the branch
+git merge <branch name>
+git merge feature 
+After merging the branch we can delete that source branch by using the below command:
+```
+
 ## Deleting the branch - Force delete
 ```sh
+git branch -d feature_chat
 git branch -D feature_chat
 
 Note: This forcefully removes the branch, even if changes are not merged.
