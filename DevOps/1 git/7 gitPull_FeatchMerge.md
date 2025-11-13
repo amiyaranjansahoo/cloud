@@ -20,7 +20,7 @@ The remote repo branches in the local machine are known as "Remote Branches"
 ```sh
 git branch -a
 By using the above command code/files will get to the local machine & will be stored in Remote Repo copy
-```sh
+
  In order to see that new code/files in the local repo we should merge remote repo branch in to the local repo branch
  by using the following command:
 
