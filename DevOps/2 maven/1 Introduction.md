@@ -30,3 +30,20 @@ C, C++ - Make file
 Dotnet - MSBuild
 Python - Setuptools, Poetry, PyBuilder
 ```
+## Maven Repository
+```sh
+There are three different types of repositories
+
+Central Repository (Hosted by maven in internet)
+	By default dependences are downloaded from central
+Local Repository
+	The machine where we run maven commands
+	Local repository avoids going to central reposioty everytime,first time dependency is downloaded from central and next time
+	onwards use the copy present in local repository.
+	Default local repository path (~/.m2/repository) 
+Remote Repository
+	Remote repository is used for couple of reasons
+	To centrally store artifacts
+	To store dependencies within organizations network
+	Sonatye Nexus & JFrog Artifactory are commonly used for seting up Remote repository.
+```
