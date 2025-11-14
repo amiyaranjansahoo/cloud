@@ -30,6 +30,19 @@ C, C++ - Make file
 Dotnet - MSBuild
 Python - Setuptools, Poetry, PyBuilder
 ```
+## Download and install maven
+```sh
+yum list all | grep -i java | grep corretto # java installation is mandatory 
+sudo yum install java-11-amazon-corretto-devel.x86_64 # java installation is mandatory
+git clone https://github.com/amiyaranjansahoo/docker-cicd-students-demo.git
+wget https://dlcdn.apache.org/maven/maven-3/3.9.11/binaries/apache-maven-3.9.11-bin.tar.gz
+tar -zxvf apache-maven-3.9.11-bin.tar.gz
+mv apache-maven-3.9.11 maven-3
+rm apache-maven-3.9.11-bin.tar.gz
+cd maven-3/bin
+./mvn
+```
+
 ## Maven Repository
 ```sh
 There are three different types of repositories
