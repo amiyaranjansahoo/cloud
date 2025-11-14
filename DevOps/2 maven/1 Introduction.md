@@ -82,7 +82,7 @@ Test
 	Executes Junit test cases
 
 Package
-	Creates artifacts like (jar, war, war)
+	Creates artifacts like (jar, war, ear)
 
 Verify
 	This is used to take some actions based on test cases results to meet quality criteria.
