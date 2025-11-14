@@ -36,14 +36,48 @@ There are three different types of repositories
 
 Central Repository (Hosted by maven in internet)
 	By default dependences are downloaded from central
+	It is available over the Internet, and anybody can access it.
+	https://repo1.maven.org/maven2
+	Dependencies are downloaded from the internet when you run maven build command.
+
 Local Repository
 	The machine where we run maven commands
 	Local repository avoids going to central reposioty everytime,first time dependency is downloaded from central and
     next time onwards use the copy present in local repository.
 	Default local repository path (~/.m2/repository) 
 Remote Repository
+	Certain customers do not use the central repository for security policy reasons.
+	Then we need to setup remote repository within the customer network
+	To setup remote repository, popular tools are
+		Sonatype Nexus
+		Jfrog Artifactory
 	Remote repository is used for couple of reasons
-	To centrally store artifacts
-	To store dependencies within organizations network
-	Sonatye Nexus & JFrog Artifactory are commonly used for seting up Remote repository.
+		To centrally store artifacts
+		To store dependencies within organizations network
+```
+## Maven Build lifecycle
+```sh
+The lifecycle of maven is as follows
+
+Validate: 
+	It validates pom.xml for the syntaxes and details that are required to perform build activity.
+
+Compile:
+	This phase compiles java code
+
+Test
+	Executes Junit test cases
+
+Package
+	Creates artifacts like (jar, war, war)
+
+Verify
+	This is used to take some actions based on test cases results to meet quality criteria.
+
+Install
+	Copies artifacts to local repository
+
+Deploy
+	Uploads artifacts to remote repository
+	This requires configuration of remote server details.
 ```
