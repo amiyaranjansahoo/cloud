@@ -81,3 +81,9 @@ Deploy
 	Uploads artifacts to remote repository
 	This requires configuration of remote server details.
 ```
+## Maven target folder
+```sh
+Maven generates this folder to create artifact
+mvn clean command deletes target folder
+mvn clean package deletes target folder and create fresh target
+```
