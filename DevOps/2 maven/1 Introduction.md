@@ -38,8 +38,8 @@ Central Repository (Hosted by maven in internet)
 	By default dependences are downloaded from central
 Local Repository
 	The machine where we run maven commands
-	Local repository avoids going to central reposioty everytime,first time dependency is downloaded from central and next time
-	onwards use the copy present in local repository.
+	Local repository avoids going to central reposioty everytime,first time dependency is downloaded from central and
+    next time onwards use the copy present in local repository.
 	Default local repository path (~/.m2/repository) 
 Remote Repository
 	Remote repository is used for couple of reasons
