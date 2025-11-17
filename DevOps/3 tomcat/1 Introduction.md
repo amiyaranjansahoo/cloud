@@ -23,6 +23,9 @@ Sun Glassfish
 ## Apache Installation and configuration
 ```sh
 Download and install java
+yum list all | grep -i java | grep corretto # java installation is mandatory 
+sudo yum install java-11-amazon-corretto-devel.x86_64 # java installation is mandatory
+
 Download apache tomcat 9x and install .
 Google => Go to [http://tomcat.apache.org/download-80.cgi](https://tomcat.apache.org/download-90.cgi)and download the apache tomcat
 
