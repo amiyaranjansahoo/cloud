@@ -49,7 +49,7 @@ Application logs (Location is configured by application team)
 TOMCAT_HOME/conf/server.xml
 1. Take a back up of server.xml
     cp server.xml server.xml-def
-2. Modify the port from 8080 to 8080 in server.xml
+2. Modify the port from 8080 to 9090 in server.xml
 3. Restart the tomcat
     TOMCAT_HOME/bin/shutdown.sh
     TOMCAT_HOME/bin/startup.sh
