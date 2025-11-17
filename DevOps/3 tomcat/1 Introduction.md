@@ -44,5 +44,24 @@ Tomcat log file path → TOMCAT_HOME/logs/catalina.out
 If application has issues then where do you check?
 Application logs (Location is configured by application team)
 ```
+## Modify the apache tomcat default port
+```sh
+TOMCAT_HOME/conf/server.xml
+1. Take a back up of server.xml
+    cp server.xml server.xml-def
+2. Modify the port from 8080 to 8080 in server.xml
+3. Restart the tomcat
+    TOMCAT_HOME/bin/shutdown.sh
+    TOMCAT_HOME/bin/startup.sh
+```
+## Tomcat Deployment Location
+```sh
+Deployment folder: TomcatHome}/webapps
+Copy the war file to the webapp folder.
+Restart the tomcat
+```
+
+    
+
 
 
