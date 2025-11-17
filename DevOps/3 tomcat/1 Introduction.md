@@ -1,6 +1,10 @@
 ## Apache Tomcat
 ```sh
+It is free and open-source.
 Is a web server to run web applications, its primarily used to run java web applications.
+It is lightweight and easy to set up compared to full-fledged Java EE servers like WebLogic
+
+
 Note:
 .Net web applications are deployed on IIS Server
 Python and static web application are deployed on nginx, apache.
@@ -16,6 +20,18 @@ Sun Glassfish
 ##  illustration of SCM, Build & Tomcat
 <img width="1176" height="376" alt="image" src="https://github.com/user-attachments/assets/01a0f011-86c5-4f0e-84a8-4ca5dd76661c" />
 
+## Apache Installation and configuration
+```sh
+Download and install java
+Download apache tomcat 9x and install .
+Google => Go to [http://tomcat.apache.org/download-80.cgi](https://tomcat.apache.org/download-90.cgi)and download the apache tomcat
+
+Login to VM and go to the directory where you want to install.say /opt/bea
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.112/bin/apache-tomcat-9.0.112.tar.gz
+tar -zxvf apache-tomcat-9.0.112.tar.gz # Unzip the .tar.gz 
+mv apache-tomcat-9.0.112 apache-tomcat-9 # Move the extracted folder file to a general name :
+mv apache-tomcat-8.5.8 apache-tomcat
+```
 ## Tomcat Folder structure
 ```sh
 Tomcat deployment folder → TOMCAT_HOME/webapps
