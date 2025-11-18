@@ -5,7 +5,7 @@ Few of them are provided below
 	Using yum
 	Using war (using java)
 	Using war (using tomcat )
-  docker
+  	docker
 ```
 ## Install Jenkins on Linux machine
 ```sh
