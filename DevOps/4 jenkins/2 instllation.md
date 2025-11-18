@@ -10,21 +10,17 @@ Few of them are provided below
 ## Install Jenkins on Linux machine
 ```sh
 Launch linux machine
-Install java development kit.
-	yum list all | grep -i java | grep corretto # java installation is mandatory 
-	sudo yum install java-11-amazon-corretto-devel.x86_64 # java installation is mandatory
-
-# Download jenkins
-Login to https://www.jenkins.io/ => Download => Under Download Jenkins 2.299 for: => Centos => Fedora => Redhat
-Run the below commands 
-  sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
-  sudo yum install jenkins
-
-Start jenkins automatically when we reboot ec2.
-  sudo chkconfig jenkins on
-
-Start jenkins
-  sudo service jenkins start
+sudo wget -O /etc/yum.repos.d/jenkins.repo \
+    https://pkg.jenkins.io/redhat-stable/jenkins.repo
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+sudo yum upgrade
+yum list all | grep -i java | grep corretto | grep 21 
+sudo yum install java-21-amazon-corretto.x86_64 # java installation is mandatory
+sudo yum install jenkins
+sudo systemctl daemon-reload
+sudo systemctl enable jenkins
+sudo systemctl start jenkins
+sudo systemctl status jenkins
 
 In this case the jenkins.war stored under /usr/share/java/jenkins.war /usr/lib/Jenkins/
 ```
