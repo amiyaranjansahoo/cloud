@@ -45,3 +45,9 @@ Start jenkins
 
 In this case the jenkins.war stored under /usr/share/java/jenkins.war /usr/lib/Jenkins/
 ```
+## ec2 known limitation
+```sh
+Disk space is below threshold of 1.00 GiB. Only 471.49 MiB out of 474.78 MiB left on /tmp.
+Dashboard => manage Jenkins => Nodes => Configure Monitor => Free temp space => Free space threshold = 20MB => Apply and save
+```
+
