@@ -24,6 +24,10 @@ sudo systemctl status jenkins
 
 In this case the jenkins.war stored under /usr/share/java/jenkins.war /usr/lib/Jenkins/
 ```
+## How to access jenkins
+```sh
+http://ec2 public ip:8080
+```
 ## ec2 known limitation
 ```sh
 Disk space is below threshold of 1.00 GiB. Only 471.49 MiB out of 474.78 MiB left on /tmp.
