@@ -11,9 +11,8 @@ Few of them are provided below
 ```sh
 Launch linux machine
 Install java development kit.
-	yum list all | grep jdk
-	sudo yum install java-1.8.0-openjdk-devel –y
-	sudo yum install 
+	yum list all | grep -i java | grep corretto # java installation is mandatory 
+	sudo yum install java-11-amazon-corretto-devel.x86_64 # java installation is mandatory
 
 # Download jenkins
 Login to https://www.jenkins.io/ => Download => Under Download Jenkins 2.299 for: => Centos => Fedora => Redhat
