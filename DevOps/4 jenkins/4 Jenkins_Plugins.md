@@ -11,7 +11,7 @@ Every feature in Jenkins is a plugin, By installing a plugin we get new features
             Allows Jenkins to build projects using Apache Maven, managing dependencies and lifecycle phases.
             Ideal for Java-based projects that rely on Maven for compilation and packaging. 
     ● sshagent
-            Provides SSH credentials to Jenkins jobs, enabling secure access to remote servers or Git repositories during builds.
+            Provides SSH credentials to Jenkins jobs, enabling secure access to remote servers.
             Useful for deployments or pulling code from private repos.
     ● email
             Sends email alerts when a Jenkins job succeeds, fails, or meets specific conditions.
