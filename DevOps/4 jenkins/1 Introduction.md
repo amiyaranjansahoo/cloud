@@ -14,4 +14,7 @@ There are alternatives to Jenkins like
 	AWS CodePipeline
 	Azure DevOps
 ```
+## Jenkins Job to deploy java web application
+<img width="861" height="146" alt="image" src="https://github.com/user-attachments/assets/50f69924-1755-4934-9dfb-e604ff0c57c3" />
+
 
