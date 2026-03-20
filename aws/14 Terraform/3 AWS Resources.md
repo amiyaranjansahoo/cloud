@@ -48,3 +48,40 @@ resource "aws_vpc" "myvpc" {
 -	=> Deleting the resource
 ~ => Updating/changing the resource
 
+#### .terraform.lock.hcl
+```sh
+•	Post execution of terraform init this file gets created
+•	This is a terraform Lock File
+•	Terraform automatically creates or updates the dependency lock file each time you run the terraform init command.
+•	This presents in  the current working directory
+•	Terraform automatically creates or updates the dependency lock file each time you run the terraform init command.
+•	You should include this file in your version control repository so that you can discuss potential changes to your
+  external dependencies via code review,
+•	It is named with the suffix .hcl instead of .tf in order to signify that difference.
+```
+#### .terraform
+```sh
+•	Post execution of terraform init this file gets created
+•	This presents in  the current working directory
+•	The .terraform directory is a local cache folder
+•	Terraform uses this folder when acts on the configuration files. 
+•	Its contents are not intended to be included in version control.
+```
+#### Terraform State File
+```sh
+terraform.tfstate
+•	State file contains resource details created by terraform.
+•	Terraform creates default state files automatically with the name terraform.tfstate.
+•	This file is created when you run “terraform apply” for the first time.
+•	This is called as terraform state file.
+•	This state is stored by default in a local file named "terraform.tfstate", but it can also be stored remotely, which works
+  better in a team environment.
+•	It’s a json file automatically created by terraform.
+•	Information about all resources created by terraform is stored in this state file.
+•	When you run terraform apply, terraform compares state file with all your terraform files accordingly, it may add, update or
+  delete
+•	Never ever update this file on your own.
+•	Terraform is idempotent ( if we apply same commands multiple times , it won’t create any side impact)
+```
+
+
