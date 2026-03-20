@@ -78,8 +78,8 @@ terraform.tfstate
   better in a team environment.
 •	It’s a json file automatically created by terraform.
 •	Information about all resources created by terraform is stored in this state file.
-•	When you run terraform apply, terraform compares state file with all your terraform files accordingly, it may add, update or
-  delete
+•	When you run terraform apply, terraform compares state file with all your terraform files accordingly, it may add, update
+  or delete
 •	Never ever update this file on your own.
 •	Terraform is idempotent ( if we apply same commands multiple times , it won’t create any side impact)
 ```
