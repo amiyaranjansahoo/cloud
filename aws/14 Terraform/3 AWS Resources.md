@@ -15,3 +15,36 @@ resource "aws_vpc" "myvpc" {
 7.	In case we wants to create one more VPC, that should not have same logical name myvpc
 8.	But we can have another resource example subnet as logical name as myvpc
 ```
+
+##### terraform init:
+```sh
+•	The terraform init command is used to initialize a working directory. 
+•	This is the first command that should be run after writing a new Terraform configuration.
+•	It is safe to run this command multiple times.
+```
+##### terraform apply
+```sh
+•	This command executes the action
+```
+##### terraform apply  -auto-approve
+```sh
+•	This command executes with auto approval
+```
+##### terraform plan
+```sh
+•	Dry run
+```
+
+##### terraform destroy
+```sh
+•	Destroy all the resource managed by terraform.
+```
+##### terraform destroy --target=
+```sh
+•	Destroy a particular resource managed by terraform.
+```
+
++ => Creating the resource
+-	=> Deleting the resource
+~ => Updating/changing the resource
+
