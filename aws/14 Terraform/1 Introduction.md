@@ -37,4 +37,35 @@ How to locate where terraform is installed:
 C:\Users\608045267>where terraform.exe
 ```
 
+### How to add terraform to path:
+```sh
+search system => Advanced System setting => Advanced => Environment variables . Now Go to lower window ( System variables =>
+Click on new => and add the path
+```
+### Tools used to access terraform
+```sh
+1.	Git bash / Command prompt
+2.	Choosing Editor for writing terraform code
+
+•	We can use git bash or simple command prompt to access and run the terraform commands.
+•	The AWS CLI must have been installed and path should be set.
+```
+
+### Configuring AWS access to Terraform:
+```sh
+Creating the user
+•	Create an user say terraform in IAM aws console.
+a.	Select Access type as Programmatic access
+b.	Go to next screen and Attach existing policies directly (AdministratorAccess etc.. )
+c.	Create the user
+        Configuring the user
+•	Configuring access key and secret key using AWS CLI
+a.	As stated above the CLI must have installed already
+b.	Setting up access key and secret key as environment variables.
+•	Open the git bash and run the below commands
+•	aws configure
+```
+
+
+
 
