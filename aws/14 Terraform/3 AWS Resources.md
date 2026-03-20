@@ -83,5 +83,7 @@ terraform.tfstate
 •	Never ever update this file on your own.
 •	Terraform is idempotent ( if we apply same commands multiple times , it won’t create any side impact)
 ```
+##### Code for subnet
+
 
 
